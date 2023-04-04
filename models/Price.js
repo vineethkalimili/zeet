@@ -16,7 +16,7 @@ const priceSchema = mongoose.Schema({
     
     
     });
-module.exports = mongoose.model('Prices',priceSchema);
+module.exports = mongoose.model('Empdata',priceSchema);
 
 
 

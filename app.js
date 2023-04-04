@@ -11,7 +11,7 @@ require('dotenv/config');
 
 app.use(bodyParser.json());
 app.use('/datas',DatasRoute);
-app.use('/prices',PricesRoute);
+app.use('/Empdatas',PricesRoute);
 
 
 // DB CONNECTION
